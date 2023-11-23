@@ -4,9 +4,11 @@
 Each service are self contained modules that perform specific functions, allowing for mixing and matching of components in order to build applications.  
 In short, SOA is an architecture that connects and matches different services to produce new applications, similar to how Lego builds structures using pre-defined bricks.
 
+
 2. List and discuss the characteristics of SOA.  
--Standardized Service Contracts:
+- Standardized Service Contracts:  
 Each service module follows a service description which dictates what the service is for and what it can and cannot do.
+
 - Loose Coupling:  
 The services must be independent or at least have minimal dependencies with each other. Ensuring that each module is usable on its own.
 
@@ -31,11 +33,13 @@ Each service must breakdown large problems into smaller ones. Being efficient in
 - Interoperability:  
 Each service must be interoperable not just focusing on one subscriber but allow a multitude of them to utilize the service.
 
+
 3. Define Microservices.  
 - Microservices are similar to SOA but differ in scope as microservices operate on a smaller scale.  
 Typically focusing on an individual application, and use a cloud native architectural approach.  
 Still Microservices builds individual applications using smaller services, just on a smaller scale.  
  
+
 4. List and discuss the benefits of using Microservices.  
 - Independently Deployable:  
 Microservices are ready to use/deploy without the need to rely on other services as it is independently functioning on its own.
@@ -45,6 +49,7 @@ Being independent means that each module can be specialized to a specific task o
 
 - Precise Scaling:  
 Since it is made up of smaller services scaling is fine tuned as services can be added based on necessity.
+
 
 5. List and discuss the similarities and differences of SOA and Microservices.  
 Similarities:  
@@ -79,10 +84,12 @@ Microservices as stated before is highly specialized, while SOA is more of a mix
 - Speed:  
 Microservices tend to operate at a much quicker rate compared to SOA.
 
+
 6. Define Web Services.  
 - Web Services are applications, software, or service that can be accessed by users using the internet. They are dynamic, modular, distributed,  
 and self-contained apps that use a standardized messaging system, and facilitates data exchange with different apps and systems regardless of  
 programming language or platform that it is being run on all being available via the internet.
+
 
 7. List and discuss the benefits of using Web Services.  
 - Exposing the Existing Function on the network:  
@@ -101,6 +108,7 @@ choices, significant cost reduction, and quality increase all because the protoc
 Web Services although allowing HTTP requests, utilize SOAP (Simple Object Access Protocol) which then in turn allow low-cost internet  
 to implement web services. This is a cheaper alternative compared to EDI/B2B(Electronic Data Interchange/Business to Business  
 Furthermore, aside from SOAP, FTP(File Transfer Protocol) can also be implemented as a reliable low cost transport mechanism.
+
 
 8. List and discuss the characteristics of Web Services.  
 - XML-Based:  
@@ -127,6 +135,7 @@ be exposed to input and output paramaters via XML-based procedures.
 - Supports Document Exchange:  
 Web Services allow document exchanging in a completely transparent manner. Since, XML represents complex documents and data in a generic way.
 
+
 9. List and discuss the distinct roles in Web Services Architecture.  
 - Provider:  
 They create the Web Service and makes that service available for use. In short, the Provider provides a usable Web Service.
@@ -137,6 +146,7 @@ This is the client or client application that needs the Web Service. In short, t
 - Broker:  
 This is the application that povides the Requestor access to the UDDI(Universal Description, Discovery and Integration). In short  
 the Broker is the bridge/middleman.
+
 
 10. List and discuss the Web Services Components.  
 - SOAP(Simple Object Access Protocol):  
